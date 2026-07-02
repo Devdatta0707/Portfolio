@@ -77,7 +77,7 @@ const Hero = () => {
 
               {/* Resume */}
               <a
-                href="/Devdatta_Salunkhe_Resume.pdf"
+                href="https://drive.google.com/file/d/1VkfOBCvhCPm4zpyrt9yUO5pnoSZb-7T6/view?usp=drivesdk"
                 target="_blank"
                 rel="noreferrer"
                 className="px-8 py-4 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-105 transition-all duration-300 text-black dark:text-white whitespace-nowrap"
