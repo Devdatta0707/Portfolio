@@ -1,5 +1,6 @@
 {
   "rewrites": [
+    { "source": "/Devdatta_Salunkhe_Resume.pdf", "destination": "/Devdatta_Salunkhe_Resume.pdf" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
