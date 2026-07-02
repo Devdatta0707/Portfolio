@@ -65,7 +65,7 @@ const Hero = () => {
             </div>
 
             {/* BUTTONS */}
-            <div className="flex flex-nowrap items-center gap-4 mt-14">
+            <div className="relative z-10 flex flex-nowrap items-center gap-4 mt-14">
 
               {/* Projects */}
               <a
