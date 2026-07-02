@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* ENABLE DARK MODE */
+@custom-variant dark (&:where(.dark, .dark *));
+
+html{
+  scroll-behavior:smooth;
+}
+
+body{
+  margin:0;
+  padding:0;
+  font-family:Arial, sans-serif;
+  transition:0.4s;
+}
+
+/* TYPOGRAPHY EFFECT */
+
+.typing-wrapper {
+  display: flex;
+  flex-direction: column;
+  animation: typingSlide 12s infinite;
+}
+
+.typing-text {
+  height: 60px;
+  line-height: 60px;
+  font-size: 28px;
+  color: #22d3ee;
+  font-family: monospace;
+  font-weight: 500;
+}
+
+@keyframes typingSlide {
+
+  0%,
+  20% {
+    transform: translateY(0);
+  }
+
+  25%,
+  45% {
+    transform: translateY(-60px);
+  }
+
+  50%,
+  70% {
+    transform: translateY(-120px);
+  }
+
+  75%,
+  95% {
+    transform: translateY(-180px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
