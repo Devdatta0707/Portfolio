@@ -65,38 +65,41 @@ const Hero = () => {
             </div>
 
             {/* BUTTONS */}
-            <div className="flex flex-wrap items-center gap-5 mt-14">
+            <div className="flex flex-nowrap items-center gap-4 mt-14">
 
               {/* Projects */}
-              <button className="px-8 py-4 rounded-2xl bg-cyan-500 hover:bg-cyan-400 transition-all duration-300 text-white font-semibold shadow-xl shadow-cyan-500/30">
+              <a
+                href="#projects"
+                className="px-8 py-4 rounded-2xl bg-cyan-500 hover:bg-cyan-400 transition-all duration-300 text-white font-semibold shadow-xl shadow-cyan-500/30 whitespace-nowrap"
+              >
                 View Projects ↓
-              </button>
+              </a>
 
               {/* Resume */}
               <a
                 href="/resume.pdf"
                 download="Devdatta_Salunkhe_Resume.pdf"
-                className="px-8 py-4 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-105 transition-all duration-300 text-black dark:text-white"
+                className="px-8 py-4 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-105 transition-all duration-300 text-black dark:text-white whitespace-nowrap"
               >
-              📄 Download Resume
+                📄 Download Resume
               </a>
 
               {/* LinkedIn */}
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/in/devdatta-salunkhe-"
                 target="_blank"
                 rel="noreferrer"
-                className="w-14 h-14 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-110 transition-all duration-300 flex items-center justify-center text-2xl text-black dark:text-white hover:text-cyan-400"
+                className="w-14 h-14 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-110 transition-all duration-300 flex items-center justify-center text-2xl text-black dark:text-white hover:text-cyan-400 flex-shrink-0"
               >
                 <FaLinkedin />
               </a>
 
               {/* GitHub */}
               <a
-                href="https://github.com"
+                href="https://github.com/Devdatta0707"
                 target="_blank"
                 rel="noreferrer"
-                className="w-14 h-14 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-110 transition-all duration-300 flex items-center justify-center text-2xl text-black dark:text-white hover:text-cyan-400"
+                className="w-14 h-14 rounded-2xl border border-black/10 dark:border-white/10 bg-white/60 dark:bg-white/5 backdrop-blur-xl hover:scale-110 transition-all duration-300 flex items-center justify-center text-2xl text-black dark:text-white hover:text-cyan-400 flex-shrink-0"
               >
                 <FaGithub />
               </a>
